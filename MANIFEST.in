@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include phytex_pharma_custom *.css
+recursive-include phytex_pharma_custom *.csv
+recursive-include phytex_pharma_custom *.html
+recursive-include phytex_pharma_custom *.ico
+recursive-include phytex_pharma_custom *.js
+recursive-include phytex_pharma_custom *.json
+recursive-include phytex_pharma_custom *.md
+recursive-include phytex_pharma_custom *.png
+recursive-include phytex_pharma_custom *.py
+recursive-include phytex_pharma_custom *.svg
+recursive-include phytex_pharma_custom *.txt
+recursive-exclude phytex_pharma_custom *.pyc
